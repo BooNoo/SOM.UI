@@ -21,7 +21,7 @@ public class SOMButton: UIButton {
         fatalError("init(coder:) has not been implemented")
     }
     
-    var delegate: UIViewController?
+    public var delegate: UIViewController?
     
     @objc func open() {
         
