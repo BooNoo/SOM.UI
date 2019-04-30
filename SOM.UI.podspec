@@ -25,13 +25,13 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Vladimir' => 'boonoovovan@yandex.ru' }
-  s.source           = { :git => 'https://github.com/BooNoo/SOM.UI', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/BooNoo/SOM.UI.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-
+  s.ios.deployment_target = '11.2'
   s.source_files = 'SOM.UI/Classes/**/*'
-
+  s.swift_version = '4.2'
+  s.exclude_files = "Constrictor/Constrictor/*.plist"
   # s.resource_bundles = {
   #   'SOM.UI' => ['SOM.UI/Assets/*.png']
   # }

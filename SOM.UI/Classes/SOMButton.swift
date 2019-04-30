@@ -25,7 +25,7 @@ public class SOMButton: UIButton {
     
     @objc func open() {
         
-        let vc = SlideOutMenuViewController()
+        let vc = SOMViewController()
         vc.modalPresentationStyle = .overFullScreen
         vc.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: UIBarButtonItem.Style.done, target: nil, action: nil)
         
