@@ -1,0 +1,6 @@
+framework module SOM_UI {
+  umbrella header "SOM.UI-umbrella.h"
+
+  export *
+  module * { export * }
+}

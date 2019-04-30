@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SOM.UI_Tests' do
+  pod 'SOM.UI', :path => '../'
+  
+  
+end

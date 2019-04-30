@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class SlideOutMenuViewController: UIViewController{
+public class SOMViewController: UIViewController{
     
     lazy var blackView: UIView = {
         let view = UIView()

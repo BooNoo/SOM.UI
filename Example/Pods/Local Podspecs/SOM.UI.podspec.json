@@ -1,0 +1,22 @@
+{
+  "name": "SOM.UI",
+  "version": "0.1.0",
+  "summary": "A short description of SOM.UI.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Vladimir/SOM.UI",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Vladimir": "boonoovovan@yandex.ru"
+  },
+  "source": {
+    "git": "https://github.com/Vladimir/SOM.UI.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SOM.UI/Classes/**/*"
+}
