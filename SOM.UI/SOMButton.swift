@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SlideOutMenuButton: UIButton {
+public class SOMButton: UIButton {
     
     override init(frame: CGRect) {
         super .init(frame: frame)
@@ -25,7 +25,7 @@ class SlideOutMenuButton: UIButton {
     
     @objc func open() {
         
-        let vc = SlideOutMenuViewController()
+        let vc = SOMViewController()
         vc.modalPresentationStyle = .overFullScreen
         vc.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: UIBarButtonItem.Style.done, target: nil, action: nil)
         
